@@ -20,14 +20,14 @@ export default function HomePage() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link href="/mission">
+            {/*<Link href="/mission">
               <Button
                 size="lg"
                 variant="outline"
               >
                 Learn More
               </Button>
-            </Link>
+            </Link>*/}
           </div>
         </div>
       </section>

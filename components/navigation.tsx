@@ -43,7 +43,7 @@ export function Navigation() {
               <span className="text-2xl font-bold mt-1">AI Will Work</span>
             </Link>
           </div>
-          <nav className="hidden md:flex space-x-8">
+          {/*}<nav className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -55,7 +55,7 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-          </nav>
+          </nav>*/}
           <Link href="/contact">
             <Button>Get Started</Button>
           </Link>
