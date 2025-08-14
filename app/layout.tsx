@@ -7,10 +7,13 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 
 export const metadata: Metadata = {
-  title: "AI Will Work - Sustainable AI Consulting",
+  title: "AI Will Work - AI Consulting",
   description:
     "Professional AI consulting services focused on sustainable solutions that enhance human potential and drive business growth.",
-  generator: "v0.app",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({
